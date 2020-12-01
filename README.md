@@ -13,6 +13,8 @@
 - Implement bag of words in Python
 - Implement various adjustments to standard bag-of-words (binary, negative)  to improve model performance
 - Apply bag of words to a sentiment analysis problem 
+- Be able to use effecient data cleaning for the bag of words model
+- Apply the bag of words model to various different training methods students have learned
 - Apply basic knowledge of computational imaging to apply bag of words to image classification
 - Use previous exposure to featurization and multiclass classification from 16A and 61A and expand on this understanding in bag-of-words featurization
 - Use previous exposure to the idea of validation in 16A and 61A to train a model and improve test accuracy
@@ -24,7 +26,7 @@
 1. Problem 1 - `HWAssignment.ipynb`
     * Use various bag-of-words feturizations to classify positive/negative Yelp reviews
 2. Problem 2 - `SVMAssignment.ipynb`
-    * Use bag of words with an SVM to classify movie reviews from IMDB
+    * Use bag of words and experiment with data cleaning with an SVM to classify movie reviews from IMDB
 3. Problem 3 - `Image Bag of Words.ipynb`
     * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
 
