@@ -49,7 +49,7 @@
        * In the last parts of the problem, the student is asked to train and test an SVM classifier and report on the results. This part ensures that students understand the goals of the assignment and reflect on the performance of bag-of-words for image classification. In addition, we ask the student to perform hyperparameter tuning so that they are able to see how different parameters affect the vocabulary and ultimately the whole image classification model.
 
 ## Installation
-* Each of the notebooks uses various common libraries, just `pip install` them 
+* Each of the notebooks uses various common libraries; if any library is not included, use `pip install` to install them 
 * Data sets can be downloaded and explored through steps in the notebooks
 * For the image classification problem, you may run into version issues with Tensorflow
   * Upgrade tensorflow by running the `pip install --upgrade tensorflow` command in problem 3 notebook
