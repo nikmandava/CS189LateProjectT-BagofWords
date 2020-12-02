@@ -42,6 +42,11 @@
 
    3. Problem 3 - `Image Bag of Words.ipynb`
        * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
+       * First students are asked to load and clean data to train and test on and to comment on the data to get them thinking about how features can be extracted from an image.
+       * Next students are asked to complete a function where they use pysift to detect keypoints in an image and extract features from it. This function returns train and test image data. This part of the problem helps students learn how to define an image by a set of smaller parts of the image, similar to words in bag-of-words.
+       * Students are asked to create a vocabulary from the image features, which will be used in the bag-of-words feature model in the coming steps. This shows similarity between image and text classification.
+       * Students are asked to perform bag-of-words on the image features to return a ready to use training set of features to help them learn how to perform classification on an image and fully featurize the image.
+       * In the last parts of the problem, the student is asked to train and test an SVM classifier and report on the results. This part ensures that students understand the goals of the assignment and reflect on the performance of bag-of-words for image classification. In addition, we ask the student to perform hyperparameter tuning so that they are able to see how different parameters affect the vocabulary and ultimately the whole image classification model.
 
 ## Installation
 * Each of the notebooks uses various common libraries, just `pip install` them 
