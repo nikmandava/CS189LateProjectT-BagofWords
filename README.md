@@ -1,6 +1,6 @@
 # CS189LateProjectT-BagofWords
 ## Learning Objective
-#### Prereqs (16A, 61A, and concurrent week 16B, 61B)
+#### Prereqs (16A, 61A, and concurrent week 16B, 61B):
 - Vectors
 - Svm, logistic regression
 - K means clustering
@@ -23,8 +23,14 @@
 - Notes and slidedeck will give students a base level of understanding on bag-of-words, nlp, and text and image classification. 
 - Students will then apply their knowledge by running through each of the project problems in the github repo in numerical order.
 - Each problem will be in its own respective ipython file in the repo, and students can navigate to each problem through these notebooks. 
-1. Problem 1 - `HWAssignment.ipynb`
-    * Use various bag-of-words feturizations to classify positive/negative Yelp reviews
+1. `Coding_Assignment/prob1` - Use various bag-of-words featurizations to classify positive/negative Yelp reviews as well as Airline Tweets
+    * Students are introduced to sentiment analysis, a common NLP problem
+    * Students perform exploratory data anlysis to become familiar with the datasets and learn what kind of words are most associated with positive/negative 
+    * Students construct a rudimentary baseline model to compare against
+    * Students implement bag of words featurization and train a Logistic Regression model for classification
+    * Students implement binary and negative versions of bag of words in order to compare model performance with the standard version 
+    * Students examine the trained model to see which words have positive/negative associations
+    * Students are presented with an open-ended challenge to improve model accuracy allowing them to used the skills learned in the previous parts
 2. Problem 2 - `SVMAssignment.ipynb`
     * Use bag of words and experiment with data cleaning with an SVM to classify movie reviews from IMDB
 3. Problem 3 - `Image Bag of Words.ipynb`
