@@ -34,6 +34,12 @@
        * Students are presented with an open-ended challenge to improve model accuracy allowing them to used the skills learned in the previous parts
    2. Problem 2 - `SVMAssignment.ipynb`
        * Use bag of words and experiment with data cleaning with an SVM to classify movie reviews from IMDB
+       * The problem begins with asking students to clean data to increase the quality of the vocabulary. Stop words, words without meaning, and punctuation are all removed from the vocabulary. This is included because it is important for the student to understand how to create a strong vocabulary, the linchpin of any good bag-of-words model.
+       * Students are asked to observe unclean data to expose how this data is diluted with words that do not add much value to the model.
+       * Students are asked to implement and run functions that help create the model so they can learn how to incorporate the features made in bag-of-words into the model itself, and the generation of train and test data.
+       * Students are told to fit and test an SVM model that they begin to create in the previous step and are asked to report on the accuracy of the model. This is to make sure students understand how to fit and predict using a SVM classifier, as well as how to interpret the results of the model on data that has not been cleaned yet.
+       * Students are finally asked to repeat similar steps, but now with cleaned data. This is so students can compare how the clean data model performs against data that is not cleaned. Students then report and explain their results to test their understanding on how cleaning up a vocabulary affects the model’s accuracy.
+
    3. Problem 3 - `Image Bag of Words.ipynb`
        * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
 
