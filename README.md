@@ -54,7 +54,8 @@
 * The quiz questions and solutions can be found in the `quiz` folder
 * The blank coding assignments are located in the `Coding_Assignment` folder and the corresponding solutions are located in the `Coding_Assignment_Solution` folder. The data and anything needed for each question is contained within the folder for that question.
 ## Installation
-* Each of the notebooks uses various common libraries; if any library is not included, use `pip install` to install them 
-* Data sets can be downloaded and explored through steps in the notebooks
+* To get started with the Jupyter Notebook assignments, run `git clone https://github.com/nikmandava/CS189LateProjectT-BagofWords.git` locally and start an instance of Jupyter notebook in the generated folder.
+* Each of the notebooks uses various common libraries; if any library is not included, use `pip install` to install them on your machine
+* Data sets can be downloaded and explored through steps in the notebooks - there should not be any need to download any of the datasets externally
 * For the image classification problem, you may run into version issues with Tensorflow
   * Upgrade tensorflow by running the `pip install --upgrade tensorflow` command in problem 3 notebook
