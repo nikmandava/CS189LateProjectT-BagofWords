@@ -22,7 +22,7 @@
 ## Intro / Setup
 - Notes and slidedeck will give students a base level of understanding on bag-of-words, nlp, and text and image classification. 
 - Students will then apply their knowledge by running through each of the project problems in the github repo in numerical order.
-   1. Problem 1 - `Coding_Assignment/prob1` 
+   1. Problem 1 - `Coding_Assignment/prob1` GOAL: Introduce students to a traditional Natural Language Processing Problem: Sentiment Analysis and how Bag of Words Featurization can be used in order to achieve better model performance. Students should then explore how different variations of the traditional Bag of Words Featurization can potentially improve predictions based on the dataset being used.
        * Use various bag-of-words featurizations to classify positive/negative Yelp reviews and Airline Tweets
        * Students are introduced to sentiment analysis, a common NLP problem
        * Students perform exploratory data analysis to become familiar with the datasets and learn what kind of words are most associated with positive/negative 
@@ -31,7 +31,7 @@
        * Students implement binary and negative versions of bag of words in order to compare model performance with the standard version 
        * Students examine the trained model to see which words have positive/negative associations
        * Students are presented with an open-ended challenge to improve model accuracy allowing them to used the skills learned in the previous parts
-   2. Problem 2 - `Coding_Assignment/prob2` 
+   2. Problem 2 - `Coding_Assignment/prob2` GOAL: Demonstrate to students the importance of pre-processing and data cleaning in NLP Problems, especially in a Bag of Words Featurization where having an appropriate usable vocabulary is crucial. Moreover, they should realize that Bag of Words featurization can be passed into any type of model architecture.
        * Use bag of words and experiment with data cleaning with an SVM to classify movie reviews from IMDB
        * The problem begins with asking students to clean data to increase the quality of the vocabulary. Stop words, words without meaning, and punctuation are all removed from the vocabulary. This is included because it is important for the student to understand how to create a strong vocabulary, the linchpin of any good bag-of-words model.
        * Students are asked to observe unclean data to expose how this data is diluted with words that do not add much value to the model.
@@ -39,7 +39,7 @@
        * Students are told to fit and test an SVM model that they begin to create in the previous step and are asked to report on the accuracy of the model. This is to make sure students understand how to fit and predict using a SVM classifier, as well as how to interpret the results of the model on data that has not been cleaned yet.
        * Students are finally asked to repeat similar steps, but now with cleaned data. This is so students can compare how the clean data model performs against data that is not cleaned. Students then report and explain their results to test their understanding on how cleaning up a vocabulary affects the model’s accuracy.
 
-   3. Problem 3 - `Coding_Assignment/prob3` 
+   3. Problem 3 - `Coding_Assignment/prob3` GOAL: Students should now be introduced to an additional use case of bag of words in a problem that is not immediately evident: Image Classification. They should see how a 'vocabulary' does not only apply to words but can be used in other contexts, combining tools that we have learned in this class such as k-means, Bag of Wrds, and the SVM classifier along with other interesting image specific ideas.
        * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
        * First students are asked to load and clean data to train and test on and to comment on the data to get them thinking about how features can be extracted from an image.
        * Next students are asked to complete a function where they use pysift to detect keypoints in an image and extract features from it. This function returns train and test image data. This part of the problem helps students learn how to define an image by a set of smaller parts of the image, similar to words in bag-of-words.
