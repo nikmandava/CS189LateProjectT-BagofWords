@@ -23,6 +23,7 @@
 - Notes and slidedeck will give students a base level of understanding on bag-of-words, nlp, and text and image classification. 
 - Students will then apply their knowledge by running through each of the project problems in the github repo in numerical order.
    1. Problem 1 - `Coding_Assignment/prob1` 
+   
    **Goal**: Introduce students to a traditional Natural Language Processing Problem: Sentiment Analysis and how Bag of Words Featurization can be used in order to achieve better model performance. Students should then explore how different variations of the traditional Bag of Words Featurization can potentially improve predictions based on the dataset being used.
        * Use various bag-of-words featurizations to classify positive/negative Yelp reviews and Airline Tweets
        * Students are introduced to sentiment analysis, a common NLP problem
@@ -33,6 +34,7 @@
        * Students examine the trained model to see which words have positive/negative associations
        * Students are presented with an open-ended challenge to improve model accuracy allowing them to used the skills learned in the previous parts
    2. Problem 2 - `Coding_Assignment/prob2` 
+   
    **Goal**: Demonstrate to students the importance of pre-processing and data cleaning in NLP Problems, especially in a Bag of Words Featurization where having an appropriate usable vocabulary is crucial. Moreover, they should realize that Bag of Words featurization can be passed into any type of model architecture.
        * Use bag of words and experiment with data cleaning with an SVM to classify movie reviews from IMDB
        * The problem begins with asking students to clean data to increase the quality of the vocabulary. Stop words, words without meaning, and punctuation are all removed from the vocabulary. This is included because it is important for the student to understand how to create a strong vocabulary, the linchpin of any good bag-of-words model.
@@ -42,6 +44,7 @@
        * Students are finally asked to repeat similar steps, but now with cleaned data. This is so students can compare how the clean data model performs against data that is not cleaned. Students then report and explain their results to test their understanding on how cleaning up a vocabulary affects the model’s accuracy.
 
    3. Problem 3 - `Coding_Assignment/prob3` 
+   
    **Goal**: Students should now be introduced to an additional use case of bag of words in a problem that is not immediately evident: Image Classification. They should see how a 'vocabulary' does not only apply to words but can be used in other contexts, combining tools that we have learned in this class such as k-means, Bag of Words, and the SVM classifier along with other interesting image specific ideas.
        * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
        * First students are asked to load and clean data to train and test on and to comment on the data to get them thinking about how features can be extracted from an image.
