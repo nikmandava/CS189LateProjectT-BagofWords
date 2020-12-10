@@ -2,7 +2,7 @@
 ## Learning Objectives
 #### Prereqs (16A, 61A, and concurrent week 16B, 61B):
 - Vectors
-- Svm, logistic regression
+- SVM, logistic regression
 - K means clustering
 - Basic python and numpy usage
 - Features and multiclass classification
@@ -13,9 +13,9 @@
 - Implement bag of words in Python
 - Implement various adjustments to standard bag-of-words (binary, negative)  to improve model performance
 - Apply bag of words to a sentiment analysis problem 
-- Be able to use effecient data cleaning for the bag of words model
+- Be able to use efficient data cleaning for the bag of words model
 - Apply the bag of words model to various different training methods students have learned
-- Apply basic knowledge of computational imaging to apply bag of words to image classification
+- Apply basic knowledge of computational imaging and clustering to apply bag of words to image classification
 - Use previous exposure to featurization and multiclass classification from 16A and 61A and expand on this understanding in bag-of-words featurization
 - Use previous exposure to the idea of validation in 16A and 61A to train a model and improve test accuracy
 
@@ -43,8 +43,8 @@
        * Generate an image vocabulary and then use bag of words with k-means and then an SVM to classify images from the CIFAR-10 dataset
        * First students are asked to load and clean data to train and test on and to comment on the data to get them thinking about how features can be extracted from an image.
        * Next students are asked to complete a function where they use pysift to detect keypoints in an image and extract features from it. This function returns train and test image data. This part of the problem helps students learn how to define an image by a set of smaller parts of the image, similar to words in bag-of-words.
-       * Students are asked to create a vocabulary from the image features, which will be used in the bag-of-words feature model in the coming steps. This shows similarity between image and text classification.
-       * Students are asked to perform bag-of-words on the image features to return a ready to use training set of features to help them learn how to perform classification on an image and fully featurize the image.
+       * Students are asked to use k-means clustering to create a vocabulary from the image features, which will be used in the bag-of-words feature model in the coming steps. This shows similarity between image and text classification.
+       * Students are asked to perform a bag-of-words featurization on the image features using the image feature vocabulary to return a ready to use training set of features to help them learn how to perform classification on an image and fully featurize the image.
        * In the last parts of the problem, the student is asked to train and test an SVM classifier and report on the results. This part ensures that students understand the goals of the assignment and reflect on the performance of bag-of-words for image classification. In addition, we ask the student to perform hyperparameter tuning so that they are able to see how different parameters affect the vocabulary and ultimately the whole image classification model.
 ## Navigating the Repository
 * Notes and slides are located in the `content` folder
