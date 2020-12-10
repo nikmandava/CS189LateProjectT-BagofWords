@@ -25,7 +25,7 @@
    1. Problem 1 - `Coding_Assignment/prob1` 
        * Use various bag-of-words featurizations to classify positive/negative Yelp reviews and Airline Tweets
        * Students are introduced to sentiment analysis, a common NLP problem
-       * Students perform exploratory data anlysis to become familiar with the datasets and learn what kind of words are most associated with positive/negative 
+       * Students perform exploratory data analysis to become familiar with the datasets and learn what kind of words are most associated with positive/negative 
        * Students construct a rudimentary baseline model to compare against
        * Students implement bag of words featurization and train a Logistic Regression model for classification
        * Students implement binary and negative versions of bag of words in order to compare model performance with the standard version 
